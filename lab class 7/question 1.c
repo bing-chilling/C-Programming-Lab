@@ -1,3 +1,4 @@
+/*Given two points in 2D, WAP to find slope of a line.*/
 #include<stdio.h>
 int main()
 {

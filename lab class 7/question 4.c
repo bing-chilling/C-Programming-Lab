@@ -1,3 +1,4 @@
+/*WAP to find out the equivalent resistance of three resistances form serial and parallel connections. Find the current through the circuit if they are connected to a voltage source.*/
 #include <stdio.h>
 int main()
 {

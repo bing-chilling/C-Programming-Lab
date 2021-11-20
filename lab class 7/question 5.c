@@ -1,3 +1,4 @@
+/*WAP to find out the values of y for 5 values of x in the equation y=x2+3*/
 #include <stdio.h>
 int main()
 {
