@@ -1,0 +1,93 @@
+1.) Write a program in 'C' to print alphabets using printf function.
+#include<stdio.h>
+int main()
+{
+    printf("abcpqr");
+    return 0;
+}
+
+abcpqr
+-----------------------------------------
+2.) Write a program in 'C' to print name, roll no. and branch using printf function.
+#include<stdio.h>
+int main()
+{
+    printf("Mukul Misra CSE 21052082");
+    return 0;
+}
+
+Mukul Misra CSE 21052082
+-----------------------------------------
+3.) Write a program in 'C' to print name, roll no. and branch using printf function in different lines using \n operator.
+#include<stdio.h>
+int main()
+{
+    printf("Mukul Misra\n");
+    printf("21052082\n");
+    printf("CSE branch");
+    return 0;
+}
+
+Mukul Misra
+21052082
+CSE branch
+-----------------------------------------
+4.) Write a program in 'C' to print the given pattern using printf function.
+*
+**
+***
+****
+*****
+#include<stdio.h>
+int main()
+{
+    printf("*\n**\n***\n****\n*****\n");
+    return 0;
+}
+
+*
+**
+***
+****
+*****
+----------------------------------------
+5.) Write a program in 'C' to print the given pattern using printf function.
+    *   
+   * *  
+  * * * 
+ * * * * 
+* * * * *
+#include<stdio.h>
+int main()
+{
+    printf("    *\n   * *\n  * * *\n * * * *\n* * * * *\n");
+    return 0;
+}
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+----------------------------------------
+6.) Write a program in 'C' to print the pattern of word KIIT (in * sign) using printf function.
+#include<stdio.h>
+int main()
+{
+    printf("*    *   *  *  * * * * * * *\n");
+    printf("*   *    *  *        *\n");
+    printf("*  *     *  *        *\n");
+    printf("* *      *  *        *\n");
+    printf("*  *     *  *        *\n");
+    printf("*   *    *  *        *\n");
+    printf("*    *   *  *        *\n");
+    return 0;
+}
+
+*    *   *  *  * * * * * * *
+*   *    *  *        *
+*  *     *  *        *
+* *      *  *        *
+*  *     *  *        *
+*   *    *  *        *
+*    *   *  *        *

@@ -1,0 +1,89 @@
+Q1. Print 'Our university is the king of iit' with iit written in star pattern (use printf()).
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Our university is the king of:\n");
+    printf("*  *  * * * * * * *\n");
+    printf("*  *        *\n");
+    printf("*  *        *\n");
+    printf("*  *        *\n");
+    printf("*  *        *\n");
+    printf("*  *        *\n");
+    printf("*  *        *\n");
+
+    return 0;
+}
+
+Our university is the king of:
+*  *  * * * * * * *
+*  *        *
+*  *        *
+*  *        *
+*  *        *
+*  *        *
+*  *        *
+
+---------------------------------------------------------------------------------------------------
+Q2. print your name using *
+#include <stdio.h>
+
+int main()
+{
+    printf("*           *   *       *   *      *   *       *   *        \n");
+    printf("* *       * *   *       *   *    *     *       *   *         \n");
+    printf("*   *   *   *   *       *   * *        *       *   *        \n");
+    printf("*     *     *   *       *   *          *       *   *        \n");
+    printf("*           *   *       *   * *        *       *   *        \n");
+    printf("*           *   *       *   *    *     *       *   *        \n");
+    printf("*           *   * * * * *   *      *   * * * * *   * * * * *      \n");
+
+    return 0;
+}
+
+*           *   *       *   *      *   *       *   *        
+* *       * *   *       *   *    *     *       *   *         
+*   *   *   *   *       *   * *        *       *   *        
+*     *     *   *       *   *          *       *   *        
+*           *   *       *   * *        *       *   *        
+*           *   *       *   *    *     *       *   *        
+*           *   * * * * *   *      *   * * * * *   * * * * *      
+
+
+-------------------------------------------------------------------------------------------------
+Q3. print a diamond using *
+#include <stdio.h>
+
+int main()
+{
+    printf("            *\n\n");
+    printf("          * * *\n\n");
+    printf("        * * * * *\n\n");
+    printf("      * * * * * * *\n\n");
+    printf("    * * * * * * * * *\n\n");
+    printf("      * * * * * * *\n\n");
+    printf("        * * * * *\n\n");
+    printf("          * * *\n\n");
+    printf("            *\n");
+
+    return 0;
+}
+
+            *
+
+          * * *
+
+        * * * * *
+
+      * * * * * * *
+
+    * * * * * * * * *
+
+      * * * * * * *
+
+        * * * * *
+
+          * * *
+
+            *

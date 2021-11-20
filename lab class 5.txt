@@ -1,0 +1,127 @@
+Q1. Write a program in 'c' to initialize two integer variable then perform division operation and store the result in integer variable as well as float variable and show the result. Also perform the type casting to get the exact result in floating point.
+
+Input:
+#include <stdio.h>
+
+int main()
+{
+    int a=20, b=9, c=a/b;
+    float d= (float)a/b;
+    printf("int value of a/b=%d and float value of a/b=%f", c, d);
+
+    return 0;
+}
+
+Output:
+int value of a/b=2 and float value of a/b=2.222222
+---------------------------------------------------------
+Q2. Write a program in 'C' to initialize four integer variables then perform increment (pre/post), decrement (pre/post) operation with them as a single statement and store the resultant value in another variable. Also display all the variable at the last.
+
+Input:
+#include <stdio.h>
+
+int main()
+{
+    int a=20, b=9, c=10, d=7;
+    int x= ++a + --b - c-- + d++ + a--;
+    printf("Value to be used= %d, %d, %d, %d\n", a,b,c,d);
+    printf("value of x come out to be=%d", x);
+    return 0;
+}
+
+Output:
+Value to be used= 20, 8, 9, 8
+value of x come out to be=47
+----------------------------------------------------------
+Q3. Write a program in 'C' to initialize a 3-digit integer and display its 1st and last digit.
+
+Input:
+#include <stdio.h>
+
+int main()
+{
+    int d=231;
+    printf("The integer %d's first and last digits are respectively: %d and %d", d, d/100, d%10);
+    return 0;
+}
+
+Output:
+The integer 231's first and last digits are respectively: 2 and 1
+
+---------------------------------------------------------
+Q4.1. Write a program in 'C' to initialize two integer variables and swap them
+      (1) Using 3rd variable
+      (2) Without using 3rd variable
+
+Input:
+#include <stdio.h>
+
+int main()
+{
+    int a=23, b=33, c;
+    c=a;
+    a=b;
+    b=c;
+    printf("The values of a and b are=%d and %d", a,b);
+    return 0;
+}
+
+Output:
+The values of a and b are=33 and 23
+--------------------------------------------------------
+Q4.2. Write a program in 'C' to initialize two integer variables and swap them
+      (1) Using 3rd variable
+      (2) Without using 3rd variable
+
+Input:
+#include <stdio.h>
+
+int main()
+{
+    int a=23, b=33;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("The values of a and b are=%d and %d", a,b);
+    return 0;
+}
+
+Output:
+The values of a and b are=33 and 23
+
+---------------------------------------------------------
+Q5. Write a program in 'C' to initialize a 3-digit integer, then find and display its reverse. (Using only operators) 
+
+Input:
+#include <stdio.h>
+
+int main()
+{
+    int a=236;
+    int b=a/100; //2
+    int c= a - (a - (a%10)); //6
+    int d= (a-(b*100)-(c))/10; //3
+    int e= c*100 + d*10 + b;
+    printf("Inverting %d, we get %d",a,e);
+    return 0;
+}
+
+Output:
+Inverting 236, we get 632
+-----------------------------------------------------------
+Q6. Write a program in 'C' to initialize a value to an integer variable as centimeters and convert it to KM, meters and centimeters. (using only operators)
+
+Input:
+#include <stdio.h>
+
+int main()
+{
+    float cm= 56587.0;
+    float km= cm/1000000;
+    float m= cm/1000;
+    printf("%f cm to km gives %f and to m gives %f",cm,km,m);
+    return 0;
+}
+
+Output:
+56587.000000 cm to km gives 0.056587 and to m gives 56.587002

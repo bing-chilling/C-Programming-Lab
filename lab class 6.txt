@@ -1,0 +1,167 @@
+Q1. Write a program in 'C' to input 3-sides of a triangle and find out area of that triangle.
+
+INPUT-----
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float a,b,c;
+    printf("Enter length of side 1: ");
+    scanf("%f", &a);
+    printf("Enter length of side 2: ");
+    scanf("%f", &b);
+    printf("Enter length of side 3: ");
+    scanf("%f", &c);
+    float p= (a+b+c)/2;
+    printf("Area of trianlge comes out to be:%f", sqrt(p*(p-a)*(p-b)*(p-c)));
+
+    return 0;
+}
+
+OUTPUT----
+Enter length of side 1: 12
+Enter length of side 2: 14
+Enter length of side 3: 17
+Area of trianlge comes out to be:83.026728
+---------------------------------------------------------------------------------
+Q2. Write a program in 'C' to input marks in 5-subjects, then find out its average marks.
+
+INPUT-----
+#include <stdio.h>
+
+int main()
+{
+    float a,b,c,d,e;
+    printf("Enter of subject 1: ");
+    scanf("%f", &a);
+    printf("Enter of subject 2: ");
+    scanf("%f", &b);
+    printf("Enter of subject 3: ");
+    scanf("%f", &c);
+    printf("Enter of subject 4: ");
+    scanf("%f", &d);
+    printf("Enter of subject 5: ");
+    scanf("%f", &e);
+    printf("Average comes out to be: %f", (a+b+c+d+e)/5);
+
+    return 0;
+}
+
+OUTPUT----
+Enter of subject 1: 12
+Enter of subject 2: 20
+Enter of subject 3: 18
+Enter of subject 4: 19
+Enter of subject 5: 11
+Average comes out to be: 16.000000
+-----------------------------------------------------------------------------------
+Q3. Write a program in 'C' to initialize gravity using macro and input initial speed then calculate velocity and total distance.
+
+INPUT-----
+#include <stdio.h>
+#define g 9.8
+
+int main()
+{
+    float u,s,t,v;
+    printf("Enter initial speed: ");
+    scanf("%f", &u);
+    printf("Enter time period: ");
+    scanf("%f", &t);
+    v= u + g*t;
+    s= u*t + 0.5*g*t*t;
+    printf("So, the final speed comes out to be: %f", v);
+    printf("\nAnd, the distance covered comes out to be: %f", s);
+    
+    return 0;
+}
+
+OUTPUT----
+Enter initial speed: 12
+Enter time period: 10
+So, the final speed comes out to be: 110.000000
+And, the distance covered comes out to be: 610.000000
+-----------------------------------------------------------------------------------
+Q4. Write a program in 'C' to find out square and cube of a number using macro.
+
+INPUT-----
+#include <stdio.h>
+#define sq(a) a*a
+#define cube(b) b*b*b
+
+int main()
+{
+    float x;
+    printf("Input number to be squared and cubed: ");
+    scanf("%f", &x);
+    printf("The square and cube of the given number is: %f, %f", sq(x), cube(x));
+    
+    return 0;
+}
+
+OUTPUT----
+Input number to be squared and cubed: 12
+The square and cube of the given number is: 144.000000, 1728.000000
+-------------------------------------------------------------------------------------
+Q5. Write a program in 'C' to input radius value then calculate area and circumference of a circle, where 'pi' value is specified using macro.
+
+INPUT-----
+#include <stdio.h>
+#define pi 3.14
+
+int main()
+{
+    float r;
+    printf("Enter the radius of circle: ");
+    scanf("%f", &r);
+    printf("The area of circle is: %f", pi*r*r);
+    
+    return 0;
+}
+
+OUTPUT----
+Enter the radius of circle: 12
+The area of circle is: 452.160000
+------------------------------------------------------------------------------------
+Q6. Write a program in 'C' to input the temperature in Fahrenheit and convert it into Celcius, and vice-versa.
+
+INPUT-----
+#include <stdio.h>
+
+int main()
+{
+    float f, c;
+    printf("Enter temperature in farhenheit and celcius respectively: ");
+    scanf("%f %f", &f, &c);
+    printf("Converting both temperatures to celcius and farheinheit respectively, we get: \n");
+    printf("%f , %f", (f-32)*0.56, (c*1.8)+32);
+    
+    return 0;
+}
+
+OUTPUT----
+Enter temperature in farhenheit and celcius respectively: 213 40
+Converting both temperatures to celcius and farheinheit respectively, we get: 
+101.360000 , 104.000000
+--------------------------------------------------------------------------------------
+Q7. Write a program in 'C' to input two integers and add that two integers without using '+' operator.
+
+INPUT-----
+#include <stdio.h>
+#define sum(a,b) a+b
+
+int main()
+{
+    int x, y;
+    printf("Enter two integers: ");
+    scanf("%d %d", &x,&y);
+    printf("Sum= %d", sum(x,y));
+    
+    return 0;
+}
+
+OUTPUT----
+Enter two integers: 12
+13
+Sum= 25

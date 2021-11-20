@@ -1,0 +1,61 @@
+Q1. Assign value 20 to variable 'a' and print usimg printf
+
+#include <stdio.h>
+
+int main()
+{
+    int a=20;
+    printf("Value of a=%d ", a);
+    return 0;
+}
+
+Value of a=20 
+-----------------------------------------------------------------
+Q2. Write a program in 'c' to initialize two variablesand calculate sum of these two numbers, then display the result.
+
+#include <stdio.h>
+
+int main()
+{
+    int a=20;
+    int b=10;
+    int c= a+b;
+    printf("Sum of a and b is= %i", c);
+    return 0;
+}
+
+Sum of a and b is= 30
+-----------------------------------------------------------------
+Q3. Write a program in 'C' to initialize a value to a variable and assign this variable to another variable, then display value of the both variable.
+
+#include <stdio.h>
+
+int main()
+{
+    int a= 10;
+    int b= a;
+    printf("Value of a and b is %i", b);
+    return 0;
+}
+
+Value of a and b is 10
+------------------------------------------------------------------
+Q4. Write a program in 'C' to initialize two integer variables and calculate addition, subtraction, multiplication, and division. Then display all the results.
+
+#include <stdio.h>
+
+int main()
+{
+    int a= 10, b=5, c= a+b, d=a-b, e=a*b, f=a/b;
+    printf("a+b=%d\n", c);
+    printf("a-b=%d\n", d);
+    printf("axb=%d\n", e);
+    printf("a/b=%d", f);
+    return 0;
+}
+
+a+b=15
+a-b=5
+axb=50
+a/b=2
+-------------------------------------------------------------------
