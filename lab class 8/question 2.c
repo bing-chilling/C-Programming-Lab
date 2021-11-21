@@ -1,3 +1,4 @@
+/*Given three inputs (a,b,c) display sum of all sides if those are sides of a triangle else displays 0 the screen*/
 #include<stdio.h>
 int main()
 {

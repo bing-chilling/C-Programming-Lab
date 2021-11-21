@@ -1,3 +1,4 @@
+/*Given three inputs (a, b, c), display 1 if those are sides of a right angle triangle else display 0 on the screen.*/
 #include<stdio.h>
 int main()
 {

@@ -17,6 +17,6 @@ int main()
     printf("\nValue of y when x is %d comes out to be: %d",x,y);
     x++;
     y=x*x + 3;
-    printf("\nValue of y when x is %d comes out to be: %d",x,y);
+    printf("\nValue of y when x is %d comes out to be: %d\n",x,y);
     return 0;
     }

@@ -9,7 +9,7 @@ int main()
 		{
 		marks+=20;
 		}
-	printf("Your obtained marks are: %d\n",a);
+	printf("Your obtained marks are: %d\n",marks);
 	
 	return 0;
 }

@@ -1,3 +1,4 @@
+/*WAP to display the Time Period of a simple pendulum for different length of the thread i.e. length = 10m, 20n , 30m, 40m, 50m*/
 #include<stdio.h>
 #include<math.h>
 #define g 9.8

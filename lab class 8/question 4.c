@@ -1,3 +1,4 @@
+/*Write a programme to display 1 if two lines in 2d are parallel to each else 0.*/
 #include<stdio.h>
 int main()
 {
@@ -12,7 +13,7 @@ int main()
 	scanf("%f %f",&a1,&b1);
 	printf("\nEnter x and y values of 2nd point of line 2: ");
 	scanf("%f %f",&a2,&b2);
-	s2= (y2-y1)/(x2-x1);
+	s2= (b2-b1)/(a2-a1);
 	k= (s1==s2);
 	printf("If the given 2 lines are parallel, output will be 1, else, 0: %d\n",k);
 	

@@ -11,6 +11,6 @@ int main()
     printf("\nEnter number of secondary turns: ");
     scanf("%d",&st);
     sv=((float)pv*st)/pt;
-    printf("\n Secondary coltage comes out to be: %f",sv);
+    printf("\n Secondary voltage comes out to be: %f\n",sv);
     return 0;
     }
